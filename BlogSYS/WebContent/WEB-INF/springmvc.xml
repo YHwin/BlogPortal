@@ -18,7 +18,7 @@
 	<!--配置前端控制器，处理器映射器，处理器适配器，视图解析器 -->
 	
 	<!--Controller扫描器 -->
-	<context:component-scan base-package="com.yh.eshop.controller"></context:component-scan>
+	<context:component-scan base-package="com.yh.blog.Controller"></context:component-scan>
 	
 	<!--视图解析器 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
