@@ -5,7 +5,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 
 	<!--引入mapper配置文件 -->
 	<mappers>
-		<mapper resource="com/yh/eshop/sqlMap/EbBrandMapper.xml"/>
+		<!-- <mapper resource="com/yh/eshop/sqlMap/EbBrandMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/EbItemMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/EbFeatureMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/ItemBigWordsMapper.xml"/>
@@ -22,6 +22,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		<mapper resource="com/yh/eshop/sqlMap/TsRolePermissionMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/BcUserRoleMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/BcRolePermissionMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/TsRolePermissionChildMapper.xml"/>
+		<mapper resource="com/yh/eshop/sqlMap/TsRolePermissionChildMapper.xml"/> -->
 	</mappers>
 </configuration>

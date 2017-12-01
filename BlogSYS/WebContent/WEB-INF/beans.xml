@@ -10,11 +10,11 @@
          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
          http://www.springframework.org/schema/aop 
          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
-  		<!--配置事务管理和对bean的管理 -->
+  		<!--配置事务管理和对工程中所有bean的管理 -->
   		
   		<!--注解扫描器 -->
   		<context:component-scan base-package="com.yh.eshop"></context:component-scan>
-  		<import resource="classpath:activiti.cfg.xml"/>
+  		<!-- <import resource="classpath:activiti.cfg.xml"/> -->
   		<!--数据源 -->
   		<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
   			<property name="driverClassName" value="oracle.jdbc.OracleDriver"/>
@@ -27,7 +27,7 @@
   		<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
   			<!--数据源注入 -->
   			<property name="dataSource" ref="dataSource"/>
-  			<!--读取配置文件 -->
+  			<!--读取Mybaties.xml配置文件 -->
   			<property name="configLocation" value="classpath:mybatis.xml"></property>
   		</bean>
   		

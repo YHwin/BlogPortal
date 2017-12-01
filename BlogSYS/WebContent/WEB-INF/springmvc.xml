@@ -29,18 +29,18 @@
 	</bean>
 	
 	<!--上传 id="multipartResolver"不能随便取-->
-	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-		<property name="maxUploadSize" value="2097152"></property><!--上传限制2M -->
+	<!-- <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="2097152"></property>上传限制2M
 	</bean>
 	
 	<mvc:interceptors>
 		<mvc:interceptor>
-			<!-- 拦截范围 -->
-			<mvc:mapping path="/brand/**" /><!--以to开头的被拦截 -->
+			拦截范围
+			<mvc:mapping path="/brand/**" />以to开头的被拦截
 			<mvc:mapping path="/Item/**" />
 			<mvc:mapping path="/order/**"/>
-			<!--拦截器 -->
+			拦截器
 			<bean class="com.yh.eshop.interceptor.loginInterceptor2"></bean>
 		</mvc:interceptor>
-	</mvc:interceptors>
+	</mvc:interceptors> -->
 </beans>
