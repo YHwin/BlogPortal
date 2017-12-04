@@ -54,6 +54,6 @@
   		
   		<!--切点:Service层-->
   		<aop:config>
-  			<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.yh.eshop.service..*.*(..))"/>
+  			<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.yh.blog.Service..*.*(..))"/>
   		</aop:config>  
 </beans>
