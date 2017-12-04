@@ -11,11 +11,11 @@ import utils.SqlSessionCommDao;
 
 @Repository
 public class PortalDaoImpl extends SqlSessionCommDao implements portalDao {
+	
 	private String sqlId = "TF_NOTICE_MANAGER.";
 
 	//mybaties测试
 	public List<TfNoticeManager> mybatiesTest() {
-		
 		return this.getSqlSession().selectList(sqlId+"SelectTest");
 	}
 
