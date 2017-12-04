@@ -1,8 +1,9 @@
 package com.yh.blog.Service;
 
-import org.springframework.stereotype.Service;
+import java.util.List;
 
-@Service
-public class PortalService {
-	
+import com.yh.blog.Model.TfNoticeManager;
+
+public interface PortalService {
+	public List<TfNoticeManager> mybatiesTest();
 }

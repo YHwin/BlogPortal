@@ -23,5 +23,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		<mapper resource="com/yh/eshop/sqlMap/BcUserRoleMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/BcRolePermissionMapper.xml"/>
 		<mapper resource="com/yh/eshop/sqlMap/TsRolePermissionChildMapper.xml"/> -->
+		<mapper resource="sqlMap/TfNoticeManagerMapper.xml"/>
 	</mappers>
 </configuration>

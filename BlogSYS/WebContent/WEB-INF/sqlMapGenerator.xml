@@ -6,21 +6,21 @@
 >
 <generatorConfiguration>
 	<!-- 制定ORCL的驱动包的路径 千万别放中文路径下 -->
-	<classPathEntry location="D:\Maven\shoprepository\repository\com\oracle\ojdbc14\10.2.0.2.0\ojdbc14-10.2.0.2.0.jar" />
+	<classPathEntry location="E:\GitHub\BlogSYS\WebContent\WEB-INF\lib\ojdbc14.jar" />
 	<!-- 配置数据源和生成的代码所存放的位置 -->
 	<context id="context1">
 		<!--驱动 -->
 		<jdbcConnection driverClass="oracle.jdbc.OracleDriver"
-			connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:orcl" userId="eshop2017"
-			password="eshop2017" />
+			connectionURL="jdbc:oracle:thin:@134.224.171.51:1521:dial" userId="vdial"
+			password="vdial123" />
 		<!-- 所生成的实体类的位置默认资源包src -->
-		<javaModelGenerator targetPackage="com.yh.eshop.model" targetProject="eshop-core" />
+		<javaModelGenerator targetPackage="com.yh.blog.Model" targetProject="BlogSYS" />
 		<!-- 所生成的sqlMap的映射文件的位置,默认资源包src -->
-		<sqlMapGenerator targetPackage="com.yh.eshop.sqlMap" targetProject="eshop-core" />
+		<sqlMapGenerator targetPackage="com.yh.blog.sqlMap" targetProject="BlogSYS" />
 		
 		<!-- 为哪些表生成代码 tableName:表名 schema:不用填写 -->
 		
-		<table schema="" tableName="TS_ROLE_PERMISSION_CHILD" enableCountByExample="false"
+		<table schema="" tableName="TF_NOTICE_MANAGER" enableCountByExample="false"
 			enableUpdateByExample="false" enableDeleteByExample="false"
 			enableSelectByExample="false" selectByExampleQueryId="false"
 		>
