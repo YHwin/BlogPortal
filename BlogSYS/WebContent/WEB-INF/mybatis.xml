@@ -5,24 +5,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 
 	<!--引入mapper配置文件 -->
 	<mappers>
-		<!-- <mapper resource="com/yh/eshop/sqlMap/EbBrandMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbItemMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbFeatureMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/ItemBigWordsMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbParaValueMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbSpecValueMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbSkuMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbConsoleLogMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/TsPtlUserMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbShipAddrMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbOrderMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/EbOrderDetailMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/TsBcUserMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/TsBcRoleMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/TsRolePermissionMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/BcUserRoleMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/BcRolePermissionMapper.xml"/>
-		<mapper resource="com/yh/eshop/sqlMap/TsRolePermissionChildMapper.xml"/> -->
 		<mapper resource="sqlMap/TfNoticeManagerMapper.xml"/>
 	</mappers>
 </configuration>
