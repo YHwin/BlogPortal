@@ -26,6 +26,6 @@ public class PortalController {
 	public String toIndex(Model model){
 		List<TfNoticeManager> noticeManagers = service.mybatiesTest();
 		model.addAttribute("noticeManagers",noticeManagers);
-		return "Index";
+		return "index";
 	}
 }
