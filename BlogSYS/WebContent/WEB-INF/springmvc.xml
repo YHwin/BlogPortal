@@ -28,6 +28,8 @@
 		<property name="suffix" value=".jsp"></property>
 	</bean>
 	
+	<!-- <mvc:resources location="/WEB-INF/jsp/" mapping="/js/**" /> -->
+	
 	<!--上传 id="multipartResolver"不能随便取-->
 	<!-- <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		<property name="maxUploadSize" value="2097152"></property>上传限制2M

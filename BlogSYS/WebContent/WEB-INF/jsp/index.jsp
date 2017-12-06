@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/util/taglib.jsp"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -23,25 +24,7 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 	
-	<!--https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800 -->
-	<link href="${pageContext.request.contextPath}/css/1.css" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.css">
-	
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
-	
-	<!-- Modernizr JS -->
-	<script src="${pageContext.request.contextPath}/js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="${pageContext.request.contextPath}/js/respond.min.js"></script>
-	<![endif]-->
+	<script src="${pageContext.request.contextPath}/js/index.js""></script>
 </head>
 
 <body>
@@ -52,7 +35,7 @@
 				<div class="overlay"></div>
 				<nav role="navigation">
 					<ul>
-						<li><a href="index.html"><i class="icon-home"></i></a></li>
+						<li><a href="#" onclick="toSinglePage()"><i class="icon-home"></i></a></li>
 					</ul>
 				</nav>
 				<div class="featured">
@@ -66,7 +49,7 @@
 						<img src="${pageContext.request.contextPath}/images/project-1.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
 						<div>
 							<span class="fh5co-post-date">October 12, 2016</span>
-							<h2><a href="single.html">How to be an effective web developer</a></h2>
+							<h2><a href="toSinglePage()">How to be an effective web developer</a></h2>
 							<p>How two simple exercises changed my life</p>
 						</div>
 					</div>
@@ -218,18 +201,5 @@
 		<div class="gototop js-top">
 			<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 		</div>
-		
-		<!-- jQuery -->
-		<script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
-		<!-- jQuery Easing -->
-		<script src="${pageContext.request.contextPath}/js/jquery.easing.1.3.js"></script>
-		<!-- Bootstrap -->
-		<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
-		<!-- Waypoints -->
-		<script src="${pageContext.request.contextPath}/js/jquery.waypoints.min.js"></script>
-		<!-- Stellar Parallax -->
-		<script src="${pageContext.request.contextPath}/js/jquery.stellar.min.js"></script>
-		<!-- Main -->
-		<script src="${pageContext.request.contextPath}/js/main.js"></script>
 </body>
 </html>

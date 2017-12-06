@@ -24,8 +24,10 @@ public class PortalController {
 	
 	@RequestMapping(value="/toIndex")
 	public String toIndex(Model model){
-		List<TfNoticeManager> noticeManagers = service.mybatiesTest();
-		model.addAttribute("noticeManagers",noticeManagers);
+		/*List<TfNoticeManager> noticeManagers = service.mybatiesTest();
+		model.addAttribute("noticeManagers",noticeManagers);*/
 		return "index";
 	}
+	
+	
 }
