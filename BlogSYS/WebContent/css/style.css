@@ -328,8 +328,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 300;
 }
 
+/*页面左侧设置*/
 #fh5co-aside {
-  width: 38.2%;
+  width: 37.8%;
   top: 0;
   left: 0;
   bottom: 0;
