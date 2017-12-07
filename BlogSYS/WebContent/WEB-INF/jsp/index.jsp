@@ -35,7 +35,7 @@
 				<div class="overlay"></div>
 				<nav role="navigation">
 					<ul>
-						<li><a href="#" onclick="toSinglePage()"><i class="icon-home"></i></a></li>
+						<li><a href="#" onclick=""><i class="icon-home"></i></a></li>
 					</ul>
 				</nav>
 				<div class="featured">
@@ -191,7 +191,7 @@
 					</div>
 					<footer>
 						<div>
-						&copy; 2016 Free HTML5. All Rights Reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+						&copy; 2016 Free HTML5. All Rights Reserved. More Templates <a href="#" target="_blank" title="#"></a> - Collect from <a href="#" title="#" target="_blank"></a>
 						</div>
 					</footer>
 				</div>
