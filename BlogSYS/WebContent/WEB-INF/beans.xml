@@ -17,11 +17,11 @@
   		<!-- <import resource="classpath:activiti.cfg.xml"/> -->
   		<!--数据源 -->
   		<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-  			<property name="driverClassName" value="oracle.jdbc.OracleDriver"/>
+  			<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
   			<!-- <property name="url" value="jdbc:oracle:thin:@134.224.171.51:1521:dial"/> -->
-  			<property name="url" value="jdbc:oracle:thin:@192.168.2.103:1521:iiosdb"/>
-  			<property name="username" value="vdial"/>
-  			<property name="password" value="vdial123"/>
+  			<property name="url" value="jdbc:mysql://119.28.106.126:3306/blog_sys"/>
+  			<property name="username" value="blogsys"/>
+  			<property name="password" value="blog!@#db"/>
   		</bean>
   		
   		<!--整合mybatis -->

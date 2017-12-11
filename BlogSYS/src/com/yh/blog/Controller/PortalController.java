@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.yh.blog.Model.TfNoticeManager;
+import com.yh.blog.Model.User;
 import com.yh.blog.Service.PortalService;
 /**
  * 前台控制层
@@ -24,7 +25,7 @@ public class PortalController {
 	
 	@RequestMapping(value="/toIndex")
 	public String toIndex(Model model){
-		List<TfNoticeManager> noticeManagers = service.mybatiesTest();
+		List<User> noticeManagers = service.mybatiesTest();
 		model.addAttribute("noticeManagers",noticeManagers);
 		return "index";
 	}

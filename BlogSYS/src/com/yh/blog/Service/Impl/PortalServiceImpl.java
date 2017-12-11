@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.yh.blog.Dao.portalDao;
 import com.yh.blog.Model.TfNoticeManager;
+import com.yh.blog.Model.User;
 import com.yh.blog.Service.PortalService;
 
 @Service
@@ -16,7 +17,7 @@ public class PortalServiceImpl implements PortalService{
 	private portalDao portalDao;
 	
 	//mybaties框架测试
-	public List<TfNoticeManager> mybatiesTest(){
+	public List<User> mybatiesTest(){
 		return portalDao.mybatiesTest();
 	}
 }
